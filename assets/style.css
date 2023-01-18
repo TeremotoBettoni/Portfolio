@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+a{
+    position: relative;
+    color: white;
+    width: 180px;
+    height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin: 20px;
+    transition: 0.5s;
+}
+a:hover{
+    background: #ec0b36 url(/assets/img/pixel.png);
+    background-size: 180px;
+    transition-delay: 0.8s;
+    animation: animate 0.8s steps(8) forwards;
+}
+a:nth-child(2):hover{
+    background: #730bec url(img/pixel2.png);
+    background-size: 180px;
+    transition-delay: 0.8s;
+    animation: animate 0.8s steps(8) forwards;
+}
+@keyframes animate {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -480px;
+    }
+}
+body{
+    
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/025/511/396/original/kristina-kostova-pixel-landscape-01-gif.gif?1586024764");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
