@@ -12,14 +12,10 @@ https://github.com/TeremotoBettoni/Portfolio
 ## Librerias y frameworks usados
 - HTML
 - CSS
-- Boostrap v5.1.x
-- Type.JS v2.0.12
-- Reset CSS de https://meyerweb.com/eric/tools/css/reset/
-- Google Fonts (Chakra Petch)
 
 # Avances
 
 ## Home
 
-###### 17-01-2023
+###### 18-01-2023
 Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
