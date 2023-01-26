@@ -20,19 +20,29 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="child"></div>
-            <div class="child"></div>
-            <div class="child"></div>
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h2 class="card-title-text">Teresa Profile</h2>
+                <div class="col-4">
+                    <div class="descripcion clearfix">
+                        <!-- voy a dividir los elementos con "float" uno al lado del otro-->
+                        <!-- texto -->
+                        <div class="float-start">
+                            <h3 class="saludo">Hi! My name is Maria Teresa Bettoni</h3>
+                            <!-- Texto dinamico, las palabras cambian mediante JS -->
+                            <div class="skills">
+                                <span class="texto-dinamico"></span>
+                            </div>
+                            <!-- descripción personal -->
+                            <p class="textodescripcion">
+                                I'm a Full Stack Java Developer and Industrial Engineering.
+                            </p>
+                            <!-- botones de contacto -->
+                            <div class="botones-contacto">
+                                <!--<a id="btn-cv" class="btn btn-success btn-lg" href="https://www.linkedin.com/in/lmejiasr/" role="button">CV</a>-->
+                                <a id="btn-cv" class="btn btn-success btn-lg"  href="assets/docs/CV Teresa Bettoni-EN.pdf" download="DEV_Teresa_Bettoni_resume" role="button">CV</a>
+                                <a id="btn-linkedin" class="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/maria-teresa-bettoni-ramos-26206713b/" role="button" target=”_blank”>LinkedIn</a>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
