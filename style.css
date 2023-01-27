@@ -38,12 +38,7 @@ a:hover{
     transition-delay: 0.8s;
     animation: animate 0.8s steps(8) forwards;
 }
-a:nth-child(2):hover{
-    background: #730bec url(img/pixel2.png);
-    background-size: 180px;
-    transition-delay: 0.8s;
-    animation: animate 0.8s steps(8) forwards;
-}
+
 @keyframes animate {
     0% {
         background-position-y: 0;
@@ -54,13 +49,38 @@ a:nth-child(2):hover{
 }
 body{
     
-    background-image: url("https://w0.peakpx.com/wallpaper/222/1016/HD-wallpaper-asus-rog-city-pixel-live-pixel-cafe.jpg");
+    background-image: url("assets/img/GIFCity1.gif");
     background-repeat: no-repeat;
     background-size: cover;
     }
 
-/*Primera vista de home*/
+/*header*/
+.navbar-toggler{
+    background-color: #ec0b36;
+}
 
+/*Primera vista de home*/
+/*Efecto de escritura en nombre*/
+.spanWrite{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 21ch;
+    animation: typing 2s steps(21), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from{ width: 0;}
+}
+@keyframes blink{
+    50% {background-color: transparent}
+}
+
+.card{
+    font-family: monospace;
+    color: white;
+}
 
 /*vista experiencia*/
 
