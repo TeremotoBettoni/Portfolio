@@ -60,27 +60,28 @@ body{
 }
 
 /*Primera vista de home*/
-/*Efecto de escritura en nombre*/
-.spanWrite{
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 21ch;
-    animation: typing 2s steps(21), blink .5s infinite step-end alternate;
-    overflow: hidden;
-}
-@keyframes typing{
-    from{ width: 0;}
-}
-@keyframes blink{
-    50% {background-color: transparent}
-}
+    /*Efecto de escritura en nombre*/
+    .spanWrite{
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 21ch;
+        animation: typing 2s steps(21), blink .5s infinite step-end alternate;
+        overflow: hidden;
+    }
+    @keyframes typing{
+        from{ width: 0;}
+    }
+    @keyframes blink{
+        50% {background-color: transparent}
+    }
 
-.card{
-    font-family: monospace;
-    color: white;
-}
+    .card{
+        font-family: monospace;
+        color: white;
+    }
+
 
 /*vista experiencia*/
 
