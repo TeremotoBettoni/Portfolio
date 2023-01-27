@@ -8,7 +8,11 @@
 }
 html {
     font-family: monospace;
-  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
 
 .grid-container{
     display: grid;
@@ -85,9 +89,56 @@ body{
         color: white;
     }
 
+    .buttonsSpecial{
+        border-radius: 3px;
+        letter-spacing: -1px;
+        user-select: none;
+        background-color: deeppink;
+        transition: all .195s ease-in-out;
+        cursor: pointer;
+        margin: 4%;
+
+    }
+
+    .buttonsSpecial:hover {
+        border: 2px solid violet;
+        box-shadow: violet 0px 0px 12px 1px inset,
+        violet 0px 0px 12px 1px;
+        border-radius: 15px;
+        color: violet;
+    }
+    .titles{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 60px 0 60px 0;
+    }
+    .logos{
+        width: fit-content;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: row;
+        list-style: none;
+        border-radius: 25px;
+        border: 0.1px solid #099fff;
+        background-color: #181818;
+        box-shadow: 0 4px 8px 0 #00ffff, 0 6px 20px 0 rgba(0, 0, 0, 19);
+    }
+    .logo{
+        width: 70px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    .logo:after{
+        display: block;
+    }
+    .logo:hover:after{
+        transform: scaleX(1);
+    }
+
 
 /*vista experiencia*/
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
     .timeline {
         width: 80%;
