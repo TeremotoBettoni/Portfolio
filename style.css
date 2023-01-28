@@ -26,7 +26,7 @@ header{
     align-items: center;
     background: #111;
 }
-a{
+.buttonpixel{
     position: relative;
     color: white;
     width: 180px;
@@ -39,7 +39,7 @@ a{
     margin: 20px;
     transition: 0.5s;
 }
-a:hover{
+.buttonpixel:hover{
     background: #ec0b36 url(/assets/img/pixel.png);
     background-size: 180px;
     transition-delay: 0.8s;
@@ -90,6 +90,12 @@ body{
     }
 
     .buttonsSpecial{
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        width: 180px;
+        height: 60px;
         border-radius: 3px;
         letter-spacing: -1px;
         user-select: none;
@@ -97,7 +103,6 @@ body{
         transition: all .195s ease-in-out;
         cursor: pointer;
         margin: 4%;
-
     }
 
     .buttonsSpecial:hover {
@@ -231,7 +236,7 @@ body{
         background-color: aqua;
         }
     }
-/*Vista de edicacion*/
+/*Vista de footer*/
 
 /*vista contacto*/
 
