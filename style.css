@@ -46,7 +46,7 @@ header{
     transition: 0.5s;
 }
 .buttonpixel:hover{
-    background: #ec0b36 url(/Portfolio/assets/img/pixel.png);
+    background: #ec0b36 url(./assets/img/pixel.png);
     background-size: 180px;
     transition-delay: 0.8s;
     animation: animate 0.8s steps(8) forwards;
