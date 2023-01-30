@@ -90,6 +90,9 @@ body{
     }
 
     .buttonsSpecial{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
@@ -236,8 +239,6 @@ body{
         background-color: aqua;
         }
     }
-/*Vista de footer*/
-
 /*vista contacto*/
 
 /*Responsiv*/
