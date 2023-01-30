@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="assets/img/fabicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Teresa Bettoni Contact</title>
+    <link rel="stylesheet" href="styleContact.css">
+    <link rel="stylesheet" href="styleFooter.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand logo-nav-bar" style="color: wheat; display: flex;">Maria Teresa <p style="margin-left: 5px; display: flex; justify-content: center; align-items: center;"> Bettoni</p></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" type="button" class="buttonpixel">Home</a>
+                            <a href="https://www.linkedin.com/in/maria-teresa-bettoni-ramos-26206713b/" type="button" class="buttonpixel">LinkedIn</a>
+                            <a href="https://github.com/TeremotoBettoni" type="button" class="buttonpixel">GitHub</a>
+                            <a href="#timeline" type="button" class="buttonpixel">TIMELINE</a>
+                            <a href="contact.html" type="button" class="buttonpixel">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contact" >
+            <h1 class="section-header">Contact</h1>
+            <div class="contact-wrapper">
+            <!-- Left contact page --> 
+                <form id="contact-form" class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                        </div>
+                    </div>
+                    <br>
+                    <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                        <div class="alt-send-button">
+                            <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                        </div>
+                    </button>
+                </form>
+            <!-- Left contact page --> 
+                <div class="direct-contact-container">
+                    <ul class="contact-list">
+                        <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+                        <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+                        <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+                    </ul>
+                    <hr>
+                    <ul class="social-media-list">
+                        <li><a href="https://github.com/TeremotoBettoni" target="_blank" class="contact-icon">
+                            <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/TeruBettoni" target="_blank" class="contact-icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/maria-teresa-bettoni-ramos-26206713b/" target="_blank" class="contact-icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>       
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </section>  
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center" style="color: white; margin: 20px;">
+            <span class="mb-3 mb-md-0" >© 2022 Personal Profile, Maria Teresa Bettoni</span>
+        </div>
+        <div class="col-md-4 wrapper ">
+            <ul>
+                <li class="linkedin"><a href="https://www.linkedin.com/in/maria-teresa-bettoni-ramos-26206713b/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+                <li class="twitter"><a href="https://twitter.com/TeruBettoni"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/teremoto_bettoni/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                <li class="google"><a href="mailto:mtbettoni@gmail.com"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+                <li class="whatsapp"><a href="https://wa.me/56951020344"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+                <li class="github"><a href="https://github.com/TeremotoBettoni"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
