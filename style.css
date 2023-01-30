@@ -63,7 +63,7 @@ body{
 
 /*header*/
 .navbar-toggler{
-    background-color: #ec0b36;
+    background-color: violet;
 }
 
 /*Primera vista de home*/
@@ -146,7 +146,7 @@ body{
     }
 
 
-/*vista experiencia*/
+/*vista timeline*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
     .timeline {
         width: 80%;
@@ -239,7 +239,6 @@ body{
         background-color: aqua;
         }
     }
-/*vista contacto*/
 
 /*Responsiv*/
 
