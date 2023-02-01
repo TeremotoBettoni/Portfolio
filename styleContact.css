@@ -164,6 +164,7 @@ hr {
 }
 
 @media screen and (max-width: 569px) {
+
     .direct-contact-container, .form-wrapper {
         float: none;
         margin: 0 auto;
@@ -186,5 +187,12 @@ hr {
 @media screen and (max-width: 410px) {
     .send-button {
         width: 99%;
+    }
+    .form-horizontal {
+        /*float: left;*/
+        max-width: 300px;
+    }
+    .alt-send-button {
+        width: 280px;
     }
 }
