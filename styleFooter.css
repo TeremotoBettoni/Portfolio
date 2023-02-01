@@ -3,9 +3,9 @@ it should always be at the center of the browser */
 .wrapper {
   display: grid;
   position: fixed;
-  bottom: 10%;
-  right: 0px;
-  top: 15%;
+  bottom: 9%;
+  right: 40px;
+  top: 20%;
 }
 
 .wrapper::after {

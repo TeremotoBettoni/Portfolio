@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: #111;
-    height: 83px;
+    padding: 20px;
     font-family: 'Poppins', sans-serif;
-
 }
 a{
     text-decoration: none;
@@ -30,7 +26,6 @@ a{
     transform: translateX(5px) translateY(5px);
     box-shadow: #8b80f9 7px 9px 0px;
 }
-
 
 .navbar-toggler{
     background-color: violet;
