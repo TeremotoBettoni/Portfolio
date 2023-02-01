@@ -93,6 +93,7 @@ body{
 
 /*Primera vista de home*/
     /*Efecto de escritura en nombre*/
+
     .spanWrite{
         display: block;
         font-family: monospace;
@@ -112,7 +113,15 @@ body{
     .card{
         font-family: monospace;
         color: white;
+        max-width: 60%;
     }
+
+    @media screen and (max-width: 480px) {
+        .card{
+            max-width: 100%;
+        }
+    }
+
 
     .buttonsSpecial{
         display: flex;
@@ -149,8 +158,9 @@ body{
     }
 
     /*de las tecnologias*/
-    .logos{
+    /*.logos{
         width: fit-content;
+        max-width: 60%;
         display: flex;
         justify-content: center; 
         align-items: center; 
@@ -172,6 +182,10 @@ body{
     .logo:hover:after{
         transform: scaleX(1);
     }
+
+    @media screen and (max-width: 480px) {
+    
+    }*/
 
 /*vista timeline*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
