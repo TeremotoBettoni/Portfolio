@@ -20,51 +20,10 @@ h1, h2, h3, h4, h5, h6, p {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #111;
-}
-.buttonpixel{
-    position: relative;
-    color: white;
-    width: 180px;
-    height: 60px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 60px;
-    letter-spacing: 2px;
-    margin: 20px;
-    transition: 0.5s;
-}
-.buttonpixel:hover{
-    background: #ec0b36 url(/assets/img/pixel.png);
-    background-size: 180px;
-    transition-delay: 0.8s;
-    animation: animate 0.8s steps(8) forwards;
-}
-
-
-@keyframes animate {
-    0% {
-        background-position-y: 0;
-    }
-    100% {
-        background-position-y: -480px;
-    }
-}
 body{
-
     background-color: #000;
     }
 
-
-/*header*/
-.navbar-toggler{
-    background-color: violet;
-}
 
 /*main*/
 #contact {

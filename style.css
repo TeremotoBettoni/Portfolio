@@ -7,17 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@keyframes load {
-    0% {
-        box-shadow: 0 0 #ed3b65 inset;
-    }
-    100% {
-        box-shadow: 0 -70 #ed3b65 inset;
-    }
-}
 .loader {
     transform: perspective(140px) rotateX(-45deg);
-
     width: 32px;
     height: 72px;
     position: relative;
@@ -51,11 +42,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     }
-
-/*header*/
-.navbar-toggler{
-    background-color: violet;
-}
 
 /*Primera vista de home*/
     /*Efecto de escritura en nombre*/

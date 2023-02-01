@@ -1,9 +1,20 @@
 /* Let's style the wrapper in such away that, 
 it should always be at the center of the browser */
 .wrapper {
-  width: 550px;
+  display: grid;
+  position: fixed;
+  bottom: 10%;
+  right: 0px;
 }
 
+.wrapper::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 150px;
+  margin: 0px auto;
+  background-color: var(--light-slate);
+}
 /* Style the Un-order list by setting its list-style to none */
 .wrapper ul {
   list-style: none;
@@ -118,26 +129,24 @@ to align it properly */
 
 @media screen and (max-width: 640px){
   .wrapper {
-      width: 350px;
+    display: flex;
+    position: relative;
+    width: 150px;
   }
   .wrapper ul li{
       margin-top: 10px;
   }
-  .wrapper ul li.google{
-      margin-left: 60px;
-  }
+
 }
-
-
 
 @media screen and (max-width: 340px){
   .wrapper {
-      width: 150px;
+    display: contents;
+    position: relative;
+    width: 150px;
   }
+
   .wrapper ul li{
       margin:15px;
-  }
-  .wrapper ul li.google{
-      margin-left: 15px;
   }
 }
