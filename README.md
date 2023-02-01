@@ -19,3 +19,10 @@ https://github.com/TeremotoBettoni/Portfolio
 
 ###### 18-01-2023
 Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
+
+###### 25-01-2022
+Se elabora vista contacto
+
+###### 01-02-2022
+
+Se adiciona JS con funciones para obtener datos de formulario de contacto, se espera enlasar con Firebase
