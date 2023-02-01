@@ -5,6 +5,7 @@ it should always be at the center of the browser */
   position: fixed;
   bottom: 10%;
   right: 0px;
+  top: 15%;
 }
 
 .wrapper::after {
@@ -127,11 +128,12 @@ to align it properly */
 
 /* media queries */
 
-@media screen and (max-width: 640px){
+@media screen and (min-width: 341px) and  (max-width: 1023px){
   .wrapper {
-    display: flex;
+    display: contents;
     position: relative;
     width: 150px;
+
   }
   .wrapper ul li{
       margin-top: 10px;
