@@ -45,36 +45,6 @@ h1, h2, h3, h4, h5, h6, p {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #111;
-    height: 83px;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-    margin: 0 20px 0 20px;
-}
-.buttonContact{
-    border: 1px solid #8b80f9;
-    border-radius: 3px;
-    padding: 1rem 2rem;
-    display: inline-block;
-    font-family: Verdana;
-    letter-spacing: -1px;
-    user-select: none;
-    color: #8b80f9;
-    box-shadow: #8b80f9 3px 3px 0px;
-    transition: all .195s ease-in-out;
-    cursor: pointer;
-}
-.buttonContact:hover{
-    transform: translateX(5px) translateY(5px);
-    box-shadow: #8b80f9 7px 9px 0px;
-}
-
 body{
     
     background-image: url("assets/img/GIFCity1.gif");
