@@ -1,0 +1,151 @@
+.modal{
+  --bs-modal-width: none;
+  --bs-modal-bg: none;
+}
+  .AboutMeContainer {
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: system, -apple-system, BlinkMacSystemFont, Roboto,
+      "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background-color: transparent;
+  }
+  .listaModal{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .imgmodal {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 24px;
+    border: 2px solid #eee;
+  }
+  
+  @mixin outline {
+    outline: 1px solid red;
+  }
+  
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @mixin tablet {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  
+  .project-container {
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  
+  .project {
+    margin: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+    
+    @media screen and (max-width: 768px) {
+      align-items: flex-start;
+    }
+  }
+  
+  .project-label {
+    color: #db64ff;
+    font-family: monospace;
+    margin: 10px 10px 0px;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    margin: 10px 10px 30px;
+    color: #eee;
+  }
+
+  .project-content {
+    position: relative;
+    grid-column: 1 / 7;
+    grid-row: 1 / -1;
+    background: #252525;
+    border-radius: 24px;
+    border: 2px solid #eee;
+  
+    @include tablet {
+      grid-column: 1 / -1;
+      padding: 40px;
+    }
+  }
+  .project-details {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #aaa;
+    
+  }
+  .parrafoModal {
+    background-color: #252525;
+    padding: 20px 25px;
+    @include tablet {
+      background-color: transparent;
+      padding: 20px 0;
+    }
+  }
+  
+  .listaModal {
+    display: flex;
+    margin: 10px 20px 10px;
+
+  }
+  .liModal {
+    margin-right: 20px;
+    color: #aaa;
+    font-family: monospace;
+  }
+  .project-img {
+    position: relative;
+    z-index: -1;
+    border-radius: 2px;
+    grid-column: 6 / -1;
+    grid-row: 1 / -1;
+  
+    @media screen and (max-width: 768px) {
+      height: 100%;
+    }
+    @include tablet {
+      grid-column: 1 / -1;
+      opacity: 0.25;
+    }
+  
+  }
+
+  /*celular*/
+@media screen and (max-width: 480px) {
+  .imgmodal {
+    display: none;
+  }
+  .project-content {
+    grid-column: 1 / 13;
+  }
+
+}
+@media screen and (min-width: 481px) and  (max-width: 720px){
+  .imgmodal {
+    display: none;
+  }
+  .project-content {
+    grid-column: 1 / 13;
+  }
+}
