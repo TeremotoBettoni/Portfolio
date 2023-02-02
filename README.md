@@ -25,4 +25,8 @@ Se elabora vista contacto
 
 ###### 01-02-2022
 
-Se adiciona JS con funciones para obtener datos de formulario de contacto, se espera enlasar con Firebase
+Se adiciona JS con funciones para obtener datos de formulario de contacto, se espera enlazar con Firebase
+
+###### 02-02-2022
+Se agrega modal de About me con estilos en modal.css.
+Para este se ocupa imagen personalizada en versión gif inspirada en mi en el balcón de mi apartamento
