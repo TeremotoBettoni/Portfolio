@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styleContact.css">
     <link rel="stylesheet" href="styleFooter.css">
     <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="modal.css">
 </head>
 <body>
     <header>
@@ -28,8 +29,8 @@
                     </ul>
                     <ul class="navbar-nav me-2">
                         <li class="nav-item">
-                            <a href="https://www.linkedin.com/in/maria-teresa-bettoni-ramos-26206713b/" type="button" class="">About me</a>
-                            <a href="#skills" type="button" class="">SKILLS</a>
+                            <a href="#m1-o" type="button" class="" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">About me</a>
+                            <a href="#skills" type="button" class="">Skills</a>
                             <a href="#timeline" type="button" class="">Timeline</a>
                             <a href="contact.html" type="button" class="buttonContact">CONTACT</a>
                         </li>
@@ -39,6 +40,37 @@
         </nav>
     </header>
     <main>
+    <main>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" data-bs-dismiss="modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="AboutMeContainer">
+                        <div class="project-container">
+                            <div class="project">
+                                <div class="project-content">
+                                    <div class="project-label">About me</div>
+                                    <h4 class="project-title">Hello everyone!</h4>
+                                    <div class="project-details">
+                                    <p class="parrafoModal">My name is Maria Teresa Bettoni and I like to create things that live on the internet.
+                                    My interest in web development started back in 2016, and finally have the opportunity to learn in 2022, 
+                                        when I decided to try in a bootcamp with Generation Chile, an NGO to give me the opportunity with a scholarship to study full stack Java Develop.
+                                    I remember my first code run, the most exciting experience! That's when I realised that this is what I want to do with my life.</p>
+                                    <ul class="listaModal">
+                                        <li type="button" class="liModal" data-bs-dismiss="modal">Close</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="project-img">
+                                    <img class="imgmodal" src="assets/img/ANIMACIÓN-TERE.gif" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section id="contact" >
             <h1 class="section-header">Contact</h1>
             <div class="contact-wrapper">
