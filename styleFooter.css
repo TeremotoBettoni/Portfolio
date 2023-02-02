@@ -4,7 +4,7 @@ it should always be at the center of the browser */
   display: grid;
   position: fixed;
   bottom: 9%;
-  right: 40px;
+  right: 20px;
   top: 20%;
 }
 

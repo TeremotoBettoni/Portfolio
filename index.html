@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styleFooter.css">
     <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="cardsSkills.css">
     <link rel="website icon" type="png" href="assets/img/fabicon.png">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
@@ -28,8 +30,8 @@
                     </ul>
                     <ul class="navbar-nav me-2">
                         <li class="nav-item">
-                            <a href="https://www.linkedin.com/in/maria-teresa-bettoni-ramos-26206713b/" type="button" class="">About me</a>
-                            <a href="#skills" type="button" class="">SKILLS</a>
+                            <a href="#m1-o" type="button" class="" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">About me</a>
+                            <a href="#skills" type="button" class="">Skills</a>
                             <a href="#timeline" type="button" class="">Timeline</a>
                             <a href="contact.html" type="button" class="buttonContact">CONTACT</a>
                         </li>
@@ -39,6 +41,26 @@
         </nav>
     </header>
     <main>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color: black;">About Me</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="">
+                        <p style="color: black;">Hello everyone! My name is Maria Teresa Bettoni and I like to create things that live on the internet. </p>
+                        <p style="color: black;">My interest in web development started back in 2016, and finally have the opportunity to learn in 2022, when I decided to try in a bootcamp with Generation Chile, an NGO to give me the opportunity with a scholarship to study full stack Java Develop.</p>
+                        <p style="color: black;">I remember my first code run, the most exciting experience! That's when I realised that this is what I want to do with my life.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Projects</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="capa">
                 <div class="row" style="margin: 60px 20px 0 0; background-color: transparent; display: flex; justify-content: center; align-items: center;">
@@ -59,10 +81,56 @@
                 </div>
                 <div style="display: grid; place-items: center;">
                     <h1 class="titles" id="skills">SKILLS</h1>
-                    
+                    <div class="container">
+                        <div class="card">
+                            <div class="box">
+                                <div class="content">
+                                    <h2>01</h2>
+                                    <h3>Languages</h3>
+                                    <div class="imgLogos">
+                                        <img src="assets/img/LogoJAVA.png" alt="Java" width="30%" style="margin: 10px;">
+                                        <img src="assets/img/JavaScript.png" alt="JavaScript" width="30%" style="margin: 10px;">
+                                        <img src="assets/img/LogoCSS.png" alt="CSS" width="30%" style="margin: 10px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <div class="content">
+                                    <h2>02</h2>
+                                    <h3>Frameworks & Librarys</h3>
+                                    <div class="imgLogos">
+                                        <img src="assets/img/react.png" alt="React" width="30%" style="margin: 10px;">
+                                        <img src="assets/img/springBoot.png" alt="SpringBoot" width="30%" style="margin: 10px;">
+                                        <img src="assets/img/LogoMYSQL.png" alt="MySQL" width="30%" style="margin: 10px;">
+                                    </div>
+                                    <div class="imgLogos">
+                                        <img src="assets/img/NodeJS.png" alt="NodeJs" width="30%" style="margin: 10px;">
+                                        <img src="assets/img/Bootstrap_logo.svg.png" alt="Bootstrap" width="30%" style="margin: 10px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <div class="content">
+                                    <h2>03</h2>
+                                    <h3>Tecnologys</h3>
+                                    <div class="imgLogos">
+                                        <img src="assets/img/githud.jpg" alt="GitHud" width="30%" style="margin: 10px;">
+                                        <img src="assets/img/jira_logo.png" alt="Jira" width="30%" style="margin: 10px;">
+                                        <img src="assets/img/LogoVSCode.png" alt="VSCode" width="30%" style="margin: 10px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <br>
+        
         <div class="container-fluid card" id="timeline" style="background: transparent;">
             <h1 class="titles">TIMELINE</h1>
             <div class="timeline">

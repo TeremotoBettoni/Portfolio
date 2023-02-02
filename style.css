@@ -16,12 +16,6 @@
     animation: load 1.5s linear infinite alternate;
 }
 
-.capa{
-    width:100%;
-    height:100vh;
-    line-height: 4vh;
-}
-
 html {
     font-family: monospace;
 }
