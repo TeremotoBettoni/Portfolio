@@ -21,7 +21,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body{
-    background-color: #000;
+    background-image: url("assets/img/8351153.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
 
@@ -121,15 +123,15 @@ textarea {
 }
 
 .place {
-    margin-left: 62px;
+    margin-left: 70px;
 }
 
 .phone {
-    margin-left: 56px;
+    margin-left: 40px;
 }
 
 .gmail {
-    margin-left: 53px;
+    margin-left: 40px;
 }
 
 .contact-text a {
