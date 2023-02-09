@@ -103,36 +103,6 @@ body{
         margin: 10px 0 60px 0;
     }
 
-    /*de las tecnologias*/
-    /*.logos{
-        width: fit-content;
-        max-width: 60%;
-        display: flex;
-        justify-content: center; 
-        align-items: center; 
-        flex-direction: row;
-        list-style: none;
-        border-radius: 25px;
-        border: 0.1px solid #099fff;
-        background-color: #181818;
-        box-shadow: 0 4px 8px 0 #00ffff, 0 6px 20px 0 rgba(0, 0, 0, 19);
-    }
-    .logo{
-        width: 70px;
-        margin: 20px;
-        cursor: pointer;
-    }
-    .logo:after{
-        display: block;
-    }
-    .logo:hover:after{
-        transform: scaleX(1);
-    }
-
-    @media screen and (max-width: 480px) {
-    
-    }*/
-
 /*vista timeline*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
     .timeline {
